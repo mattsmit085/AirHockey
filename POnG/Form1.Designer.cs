@@ -35,7 +35,6 @@ namespace POnG
             this.p2ScoreLabel = new System.Windows.Forms.Label();
             this.gameTimer = new System.Windows.Forms.Timer(this.components);
             this.gameoverLabel = new System.Windows.Forms.Label();
-            this.fpsTimer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // p1ScoreLabel
@@ -76,12 +75,6 @@ namespace POnG
             this.gameoverLabel.Visible = false;
             this.gameoverLabel.Click += new System.EventHandler(this.gameoverLabel_Click);
             // 
-            // fpsTimer
-            // 
-            this.fpsTimer.Enabled = true;
-            this.fpsTimer.Interval = 1;
-            this.fpsTimer.Tick += new System.EventHandler(this.fpsTimer_Tick);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -111,7 +104,6 @@ namespace POnG
         private System.Windows.Forms.Label p2ScoreLabel;
         private System.Windows.Forms.Timer gameTimer;
         private System.Windows.Forms.Label gameoverLabel;
-        private System.Windows.Forms.Timer fpsTimer;
     }
 }
 

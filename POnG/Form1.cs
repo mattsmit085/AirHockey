@@ -387,7 +387,7 @@ namespace POnG
 
         private void fpsTimer_Tick(object sender, EventArgs e)
         {
-            Refresh();
+
         }
     }
 }
