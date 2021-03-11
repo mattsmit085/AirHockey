@@ -51,6 +51,10 @@ namespace POnG
         SolidBrush greenBrush = new SolidBrush(Color.Green);
         Font screenFont = new Font("Consolas", 12);
 
+
+        // Matt Smith
+        // March 11, 2021
+        //A beautiful masterpiece recreation of the old airhockey game, complete with many FEATURES.
         public Form1()
         {
             InitializeComponent();
